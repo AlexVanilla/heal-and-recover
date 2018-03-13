@@ -156,7 +156,7 @@ class MyTimeline extends React.PureComponent {
             <div>
                 <button className="btn btn-success m-b-20" onClick={() => { this.setState({ show: true }) }}>New Entry</button>
                 <div id="content">
-                    <h1 className="page-header m-b-30">{this.state.username}'s Timeline</h1>
+                    <h1 className="page-header m-b-30">{this.state.username}\'s Timeline</h1>
                     <TimelineView
                         someStuff={this.state.someStuff}
                     />
